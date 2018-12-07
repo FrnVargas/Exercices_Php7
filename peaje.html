@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>peaje</title>
+</head>
+<body>
+
+	<h3>Calcule el total a pagar en un peaje de carretera según las
+		siguientes instrucciones: <br>
+		• Las motos pagan 3,2 € <br>
+		• Los coches pagan 0’1 € por kilómetro recorrido <br>
+		• Los camiones pagan 0’1 € por kilómetro recorrido y 0’1 € por tonelada transportada<br>
+		• Los autobuses pagan 0,2 € por kilómetro recorrido<br></h3>
+	<br>
+	<div >	
+	    <h1>******************************************</h1>
+		<h1>*****¡STOP!*****¡PEAJE!*****¡STOP!******</h1>
+		<h1>******************************************</h1>
+	</div>
+	<br>
+	<p><h3>Indique por favor el tipo de vehiculo que usa: </h3>
+	
+	
+	<form method='post' action='peaje.php'>
+	<br>
+	<input type='radio' name='source' value='moto'>MOTO
+	<br>
+	<input type='radio' name='source' value='coche'>COCHE
+	<input type='radio' name='kmC' value='5'>5 km
+	<input type='radio' name='kmC' value='15'>15 km
+	<input type='radio' name='kmC' value='25'>25 km
+	<input type='radio' name='kmC' value='35'>35 km
+	<input type='radio' name='kmC' value='45'>45 km
+	<br>
+	<input type='radio' name='source' value='autobus'>AUTOBUS
+	<input type='radio' name='kmA' value='5'>5 km
+	<input type='radio' name='kmA' value='15'>15 km
+	<input type='radio' name='kmA' value='25'>25 km
+	<input type='radio' name='kmA' value='35'>35 km
+	<input type='radio' name='kmA' value='45'>45 km
+	<br>
+	<input type='radio' name='source' value='camion'>CAMION
+	<input type='radio' name='kmCA' value='5'>5 km
+	<input type='radio' name='kmCA' value='15'>15 km
+	<input type='radio' name='kmCA' value='25'>25 km
+	<input type='radio' name='kmCA' value='35'>35 km
+	<input type='radio' name='kmCA' value='45'>45 km
+	<input type='radio' name='tmCA' value='2'>2 tm
+	<input type='radio' name='tmCA' value='4'>4 tm
+	<input type='radio' name='tmCA' value='6'>6 tm
+	<input type='radio' name='tmCA' value='8'>8 tm
+	<input type='radio' name='tmCA' value='10'>10 tm
+	<input type='radio' name='tmCA' value='12'>12 tm
+	<input type='radio' name='tmCA' value='14'>14 tm
+	<input type='radio' name='tmCA' value='16'>16 tm
+	<input type='radio' name='tmCA' value='18'>18 tm
+
+	<br/>
+	<br/>
+	<button value='submit'>SELECCIONAR</button>
+	</form>
+
+</body>
+</html>
