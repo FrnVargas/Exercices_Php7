@@ -19,7 +19,7 @@ class funcion {
 	// capturar datos introducido
 	public static function datoIntroducido(string $var) {
 		$s = $_REQUEST [$var];
-		$tmp = (isset ( $s )) ? trim ( htmlspecialchars ( $s, ENT_QUOTES, 'UTF-8' ) ) : "";
+		$tmp = (isset ( $s )) ? trim ( htmlentities ( $s, ENT_QUOTES, 'UTF-8' ) ) : "";
 		return $tmp;
 	}
 	public static function parImpar(int $num1, int $num2) {
